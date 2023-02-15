@@ -1,5 +1,43 @@
+/***** FONTS *****/
+
+@font-face {
+    font-family: 'monument_extendedregular';
+    src: url('FONTS/monumentextended-regular-webfont.woff2') format('woff2'),
+         url('FONTS/monumentextended-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'monument_extendedultrabold';
+    src: url('FONTS/monumentextended-ultrabold-webfont.woff2') format('woff2'),
+         url('FONTS/monumentextended-ultrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'stolzlmedium';
+    src: url('FONTS/stolzl-medium-webfont.woff2') format('woff2'),
+         url('FONTS/stolzl-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'stolzlregular';
+    src: url('FONTS/stolzl-regular-webfont.woff2') format('woff2'),
+         url('FONTS/stolzl-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/***** FORMATO CONTAINERS *****/
 
 .cont1{
+    font-family: 'stolzlregular';
     height: 550px;
     width: 600px;
     padding-left: 40px;
@@ -10,20 +48,25 @@
 
 .colu1{
     float: left;
-    width: 11%;
+    width: 14%;
     height: 24px;
     color: #C2C2C3;
+    font-size: 20px;
 }
 
 .colu2{
     float: right;
-    width: 89%;
+    width: 86%;
     color: #C2C2C3;
+    font-size: 20px;
 }
 
 .row1:after {
     content: "";
     display: table;
     clear: both;
-    margin-bottom: 13px;
-  }
+    margin-bottom: 10px;
+}
+.userfont{
+    font-family: 'stolzlmedium';
+}
