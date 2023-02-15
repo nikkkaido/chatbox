@@ -44,7 +44,18 @@
     padding-right: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
+  /*  overflow-y: scroll;
+    scroll-behavior: auto;
+    position : relative; 
+    bottom:0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;*/
 }
+
+/*
+.cont1::-webkit-scrollbar { 
+    display: none;
+}*/
 
 .colu1{
     float: left;
@@ -65,8 +76,15 @@
     content: "";
     display: table;
     clear: both;
-    margin-bottom: 10px;
+    margin-bottom: 9px;
+    height: 2px;
 }
 .userfont{
     font-family: 'stolzlmedium';
+}
+
+.par1{
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.3;
 }
