@@ -1,0 +1,29 @@
+
+.cont1{
+    height: 550px;
+    width: 600px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.colu1{
+    float: left;
+    width: 11%;
+    height: 24px;
+    color: #C2C2C3;
+}
+
+.colu2{
+    float: right;
+    width: 89%;
+    color: #C2C2C3;
+}
+
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-bottom: 13px;
+  }
